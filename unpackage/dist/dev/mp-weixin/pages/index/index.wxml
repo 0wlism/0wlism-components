@@ -1,0 +1,1 @@
+<view><view class="content"><view></view><view></view><view></view><view></view></view><owlism-go-top vue-id="8dd740cc-1" bind:__l="__l" vue-slots="{{['default']}}"><view>TOP</view></owlism-go-top></view>

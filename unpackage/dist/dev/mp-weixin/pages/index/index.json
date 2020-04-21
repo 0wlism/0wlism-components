@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "0wlism-gotop",
+  "usingComponents": {
+    "owlism-go-top": "/components/0wlism-gotop/0wlism-gotop"
+  }
+}
