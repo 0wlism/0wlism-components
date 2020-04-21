@@ -1,4 +1,10 @@
+
+
+## 预览
+![](https://gitee.com/Owlism/owlComponents/raw/master/README/0wlism-gotop/show.gif)
+
 ## 注意
+
 本组件只在微信小程序和H5端测试过，如有问题请指正
 
 ## 使用步骤
