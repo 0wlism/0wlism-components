@@ -11,10 +11,10 @@
 
 ### 引入
 ```javascript
-import owlismGoTop from '@/components/0wlism-gotop/0wlism-gotop.vue'
+import ourGoTop from '@/components/our-gotop/our-gotop.vue'
 
 export default {
-	components: { owlismGoTop }
+	components: { ourGoTop }
 }
 ```
 ### 使用
@@ -31,7 +31,7 @@ H5端可以这样
 			<view></view>
 		</view>
 		<!-- 在页面里使用，默认为内置图标 -->
-		<owlismGoTop />
+		<ourGoTop />
 	</view>
 </template>
 ```
@@ -47,9 +47,9 @@ H5端可以这样
 			<view></view>
 		</view>
 		<!-- 在页面里使用，用自己定义的内容 -->
-		<owlism-go-top>
+		<our-go-top>
 			<view>TOP</view>
-		</owlism-go-top>
+		</our-go-top>
 	</view>
 </template>
 ```

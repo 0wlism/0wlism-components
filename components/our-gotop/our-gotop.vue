@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'OurGoTop',
+  name: 'ourGoTop',
   data () {
     return {
       timer: null,
