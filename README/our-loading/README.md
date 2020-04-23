@@ -12,15 +12,13 @@
 
 > 原因是uni-app不支持动态组件，如果以后支持，我就修改为自动配置不需要改源码
 
-| shrinkRect | loop | bounce | doubleBounce |
-| ---------- | ---- | ------ | ------------ |
-|            |      |        |              |
+| shrinkRect                                                   | loop                                                         | bounce                                                       | doubleBounce                                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![](https://gitee.com/Owlism/owlComponents/raw/master/README/our-loading/shrinkRect.gif) | ![](<https://gitee.com/Owlism/owlComponents/raw/master/README/our-loading/loop.gif>) | ![](<https://gitee.com/Owlism/owlComponents/raw/master/README/our-loading/bounce.gif>) | ![](<https://gitee.com/Owlism/owlComponents/raw/master/README/our-loading/doubleBounce.gif>) |
 
-| doubleCube | doubleDot | rotatePlane | scaleOut |
-| ---------- | --------- | ----------- | -------- |
-|            |           |             |          |
-
-
+| doubleCube                                                   | doubleDot                                                    | rotatePlane                                                  | scaleOut                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![](<https://gitee.com/Owlism/owlComponents/raw/master/README/our-loading/doubleCube.gif>) | ![](<https://gitee.com/Owlism/owlComponents/raw/master/README/our-loading/doubleDot.gif>) | ![](<https://gitee.com/Owlism/owlComponents/raw/master/README/our-loading/rotatePlane.gif>) | ![](<https://gitee.com/Owlism/owlComponents/raw/master/README/our-loading/scaleOut.gif>) |
 
 ## 使用步骤
 
