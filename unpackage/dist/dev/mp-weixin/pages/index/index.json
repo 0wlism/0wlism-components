@@ -1,6 +1,7 @@
 {
-  "navigationBarTitleText": "0wlism-gotop",
+  "navigationBarTitleText": "",
   "usingComponents": {
-    "owlism-go-top": "/components/0wlism-gotop/0wlism-gotop"
+    "our-loading": "/components/our-loading/our-loading",
+    "our-go-top": "/components/our-gotop/our-gotop"
   }
 }

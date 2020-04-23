@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "shrink-rect": "/components/our-loading/loaders/shrink-rect"
+  }
+}
