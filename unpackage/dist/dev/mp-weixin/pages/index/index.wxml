@@ -1,1 +1,1 @@
-<view><view class="content"><view><our-loading vue-id="8dd740cc-1" active isFullScreen text="加载中..." bind:__l="__l"></our-loading></view><view></view><view></view><view></view></view></view>
+<view><view class="parent"><our-loading vue-id="8dd740cc-1" color="red" textColor="red" active text="加载中..." bind:__l="__l"></our-loading></view></view>

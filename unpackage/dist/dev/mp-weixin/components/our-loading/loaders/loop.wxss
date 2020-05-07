@@ -1,5 +1,5 @@
 
-.spinner.data-v-c0875740 {
+.spinner-inside.data-v-c0875740 {
   margin: 25px auto;
   position: relative;
 }
@@ -14,7 +14,7 @@
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.spinner .spinner-container.data-v-c0875740 {
+.spinner-inside .spinner-inside-container.data-v-c0875740 {
   position: absolute;
   width: 100%;
   height: 100%;

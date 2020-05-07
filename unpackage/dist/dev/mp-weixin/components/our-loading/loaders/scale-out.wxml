@@ -1,1 +1,1 @@
-<view class="data-v-2422d6bf"><view class="spinner data-v-2422d6bf" style="{{'background-color:'+(color)+';'+('width:'+(size+40+'px')+';')+('height:'+(size+40+'px')+';')}}"></view></view>
+<view class="data-v-2422d6bf"><view class="spinner-inside data-v-2422d6bf" style="{{'background-color:'+(color)+';'+('width:'+(size+40+'px')+';')+('height:'+(size+40+'px')+';')}}"></view></view>

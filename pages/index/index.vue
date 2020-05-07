@@ -1,54 +1,30 @@
 <template>
 	<view>
-		<view class="content">
-			<view>
-				<our-loading active isFullScreen text="加载中..."></our-loading>
-			</view>
-			<view></view>
-			<view></view>
-			<view></view>
+		<view class="parent">
+			<our-loading color="red" textColor="red" active text="加载中..." />
+			<!-- <our-loading active text="加载中...">
+				<image class="img" src="../../static/loading.gif" mode="aspectFit" />
+			</our-loading> -->
 		</view>
-		<!-- <ourGoTop :scrollY="1000" /> -->
-		<!-- <our-go-top></our-go-top> -->
 	</view>
 </template>
 
 <script>
-	import ourGoTop from '@/components/our-gotop/our-gotop.vue'
 	import ourLoading from '@/components/our-loading/our-loading.vue'
 	
 	export default {
-		components: { ourGoTop,ourLoading },
-		data() {
-			return {
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
-		}
+		components: { ourLoading }
 	}
 </script>
 
 <style lang="scss">
-	
-.content {
-	&>view{
-		height: 100vh;
-// 		&:nth-of-type(1) {
-// 			background-color: $uni-color-primary;
-// 		}	
-// 		&:nth-of-type(2) {
-// 			background-color: $uni-color-success;
-// 		}	
-// 		&:nth-of-type(3) {
-// 			background-color: $uni-color-warning;
-// 		}	
-// 		&:nth-of-type(4) {
-// 			background-color: $uni-color-error;
-// 		}
+.parent {
+	width: 100vw;
+	height: 100vh;
+	position: relative;  /* 注意需要为加载器定义一个相对定位的父容器 */
+	.img {
+		max-width: 30vw;
+		height: 100rpx;
 	}
-}	
+}
 </style>

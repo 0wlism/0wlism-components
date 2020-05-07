@@ -114,7 +114,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var shrinkRect = function shrinkRect() {__webpack_require__.e(/*! require.ensure | components/our-loading/loaders/shrink-rect */ "components/our-loading/loaders/shrink-rect").then((function () {return resolve(__webpack_require__(/*! ./loaders/shrink-rect.vue */ 95));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var shrinkRect = function shrinkRect() {__webpack_require__.e(/*! require.ensure | components/our-loading/loaders/shrink-rect */ "components/our-loading/loaders/shrink-rect").then((function () {return resolve(__webpack_require__(/*! ./loaders/shrink-rect.vue */ 86));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
 
 
 
@@ -148,16 +148,21 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
-
-
-
-
+// ==========在这里选一个你要的其他去掉也行==========
+var _default =
 {
   name: 'ourLoading',
   components: {
-    // ==========就是这里==========
+    // ==========在这里选择一个==========
+    // loop,
+    // bounce,
+    // doubleBounce,
+    // doubleCube,
+    // doubleDot,
+    // rotatePlane,
+    // scaleOut,
     shrinkRect: shrinkRect
-    // ==========就是这里==========
+    // ==========在这里选择一个==========
   },
   props: {
     active: Boolean,
@@ -170,6 +175,10 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
       default: '' },
 
     color: {
+      type: String,
+      default: '#333' },
+
+    textColor: {
       type: String,
       default: '#333' },
 

@@ -143,12 +143,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var ourGoTop = function ourGoTop() {__webpack_require__.e(/*! require.ensure | components/our-gotop/our-gotop */ "components/our-gotop/our-gotop").then((function () {return resolve(__webpack_require__(/*! @/components/our-gotop/our-gotop.vue */ 30));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var ourLoading = function ourLoading() {__webpack_require__.e(/*! require.ensure | components/our-loading/our-loading */ "components/our-loading/our-loading").then((function () {return resolve(__webpack_require__(/*! @/components/our-loading/our-loading.vue */ 23));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
-
-
-
-
-
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var ourLoading = function ourLoading() {__webpack_require__.e(/*! require.ensure | components/our-loading/our-loading */ "components/our-loading/our-loading").then((function () {return resolve(__webpack_require__(/*! @/components/our-loading/our-loading.vue */ 23));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 
@@ -163,15 +158,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 {
-  components: { ourGoTop: ourGoTop, ourLoading: ourLoading },
-  data: function data() {
-    return {};
-
-  },
-  onLoad: function onLoad() {
-
-  },
-  methods: {} };exports.default = _default;
+  components: { ourLoading: ourLoading } };exports.default = _default;
 
 /***/ }),
 /* 21 */

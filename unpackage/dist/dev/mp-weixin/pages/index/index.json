@@ -1,7 +1,6 @@
 {
   "navigationBarTitleText": "",
   "usingComponents": {
-    "our-loading": "/components/our-loading/our-loading",
-    "our-go-top": "/components/our-gotop/our-gotop"
+    "our-loading": "/components/our-loading/our-loading"
   }
 }

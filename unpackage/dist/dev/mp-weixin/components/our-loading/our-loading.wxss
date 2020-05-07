@@ -1,7 +1,6 @@
 
 .mask.data-v-ed711904 {
 	position: absolute;
-	position: relative;
 	left: 0;
 	right: 0;
 	top: 0;
@@ -18,10 +17,10 @@
   left: 0;
 }
 .spinner.data-v-ed711904 {
+	position: absolute;
 	top: 50%;
 	left: 50%;
-	position: absolute;
-	text-align: center
+	text-align: center;
 }
 .fade-enter-active.data-v-ed711904, .fade-leave-active.data-v-ed711904 {
   -webkit-transition: opacity .3s;

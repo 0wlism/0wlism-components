@@ -24,7 +24,14 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.content > view {
+.parent {
+  width: 100vw;
   height: 100vh;
+  position: relative;
+  /* 注意需要为加载器定义一个相对定位的父容器 */
+}
+.parent .img {
+  max-width: 30vw;
+  height: 100rpx;
 }
 
