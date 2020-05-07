@@ -109,7 +109,7 @@ export default {
 
 |                        自定义加载动画                        |
 | :----------------------------------------------------------: |
-| ![](D:\Program\0wlism-components\README\our-loading\diyloading.gif) |
+| ![](https://gitee.com/Owlism/owlComponents/raw/master/README/our-loading/diyloading.gif) |
 
 
 
