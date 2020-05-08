@@ -1,0 +1,1 @@
+<view><our-date-picker bind:clickToGetDate="__e" vue-id="760cddb8-1" data-event-opts="{{[['^clickToGetDate',[['getDate']]]]}}" bind:__l="__l"></our-date-picker></view>
